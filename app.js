@@ -2,15 +2,14 @@
 require.config({
     paths: {
         'underscore': 'lib/underscore', // AMD support
-        'backbone': 'lib/backbone', // AMD support
-        'epiceditor': 'lib/epiceditor'
+        'backbone': 'lib/backbone'
     }
 });
 
 require([
   'jquery',
   'underscore',
-  'views/editor'
+  'src/views/editor'
 ], function($, _, Editor) {
   'use strict';
 
